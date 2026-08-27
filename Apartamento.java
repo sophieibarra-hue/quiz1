@@ -16,7 +16,6 @@ public class Apartamento {
         return numhabit;
     } 
 
-    // Corregido: toString debe retornar el String (texto)
     @Override
     public String toString() {
         return "Apartamento N°: " + numero + " | Tiene " + numhabit + " habitaciones";
